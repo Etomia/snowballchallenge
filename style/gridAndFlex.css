@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: minmax(100px,200px);
+    grid-gap: 0px;
+}
+
+.emptyL {
+    grid-column: 1/4;
+    grid-row: auto;
+}
+
+.emptyR {
+    grid-column: 10/12;
+    grid-row: auto;
+}
+
+.main {
+    grid-column: 4/10;
+    grid-row: auto;
+}
+
+@media (max-width: 700px){
+    .container{
+        display: block;
+    }
+
+}
+
