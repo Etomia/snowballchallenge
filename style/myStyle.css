@@ -89,4 +89,9 @@ img {
         margin-left: 10%;
         margin-right: 10%;
     }
+
+    #topnav a {
+        font-size: 3vw;
+        width: 10vw;
+    }
 }
