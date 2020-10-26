@@ -21,6 +21,21 @@
     grid-row: auto;
 }
 
+.subcontainer1 {
+    display: grid;
+}
+
+.subleft {
+    grid-column: 1/8;
+    grid-row: auto;
+    padding-right: 2vw;
+}
+
+.subright {
+    grid-column: 8/12;
+    grid-row: auto;
+}
+
 @media (max-width: 1500px){
     .container{
         display: block;
